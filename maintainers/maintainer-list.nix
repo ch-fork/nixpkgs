@@ -1659,6 +1659,12 @@
     githubId = 2245737;
     name = "Christopher Mark Poole";
   };
+  chuahou = {
+    email = "human+github@chuahou.dev";
+    github = "chuahou";
+    githubId = 12386805;
+    name = "Chua Hou";
+  };
   ciil = {
     email = "simon@lackerbauer.com";
     github = "ciil";

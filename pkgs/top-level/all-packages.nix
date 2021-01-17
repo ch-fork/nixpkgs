@@ -29085,6 +29085,7 @@ in
 
   hll2390dw-cups = callPackage ../misc/cups/drivers/hll2390dw-cups { };
 
+  mfcj625dwcupswrapper = callPackage ../misc/cups/drivers/mfcj625dwcupswrapper { };
   mfcj625dwlpr = pkgsi686Linux.callPackage ../misc/cups/drivers/mfcj625dwlpr { };
 
   mfcj470dw-cupswrapper = callPackage ../misc/cups/drivers/mfcj470dwcupswrapper { };

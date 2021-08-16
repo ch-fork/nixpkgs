@@ -27258,6 +27258,8 @@ in
 
   robustirc-bridge = callPackage ../servers/irc/robustirc-bridge { };
 
+  sioyek = libsForQt5.callPackage ../applications/misc/sioyek { };
+
   skrooge = libsForQt5.callPackage ../applications/office/skrooge {};
 
   smartgithg = callPackage ../applications/version-management/smartgithg {

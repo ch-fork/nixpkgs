@@ -1,0 +1,13 @@
+diff --git a/build_linux.sh b/build_linux.sh
+index 4757018..9ad3264 100755
+--- a/build_linux.sh
++++ b/build_linux.sh
+@@ -2,6 +2,8 @@ cd mupdf
+ make USE_SYSTEM_HARFBUZZ=yes
+ cd ..
+ qmake pdf_viewer_build_config.pro
++sed -i 's/g++-9/g++/g' Makefile
++sed -i 's/gcc-9/gcc/g' Makefile
+ make
+ 
+ rm -r build 2> /dev/null

@@ -6,13 +6,13 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "opensnitch-ui";
-  version = "1.4.0-rc.1";
+  version = "1.4.2";
 
   src = fetchFromGitHub {
     owner = "evilsocket";
     repo = "opensnitch";
     rev = "v${version}";
-    sha256 = "sha256-UJ46sGdL+YAeb3U9C07tzMpy6FOkLNRq2Z0koF1AL80=";
+    sha256 = "sha256-+TplEevRQBaE58camZ6zPlZV+R2xBS4J7EzKlxKUEFk=";
   };
 
   nativeBuildInputs = [ python3Packages.pyqt5 wrapQtAppsHook ];
